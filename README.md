@@ -1,7 +1,7 @@
 # Libsecp256k1-0
 
 This is a compiled libsecp256k1 python package that allows you to use secp256k1 in your python projects. Secp256k1 is an optimized C library for ECDSA signatures and secret/public key operations. This library is intended to be the highest quality publicly available library for cryptography on the secp256k1 curve. See this for more details on secp256k1: https://github.com/bitcoin-core/secp256k1. Libsecp256k1-0 contains the precompiled modules of secp256k1 compatible for multiple platforms (unix, windows 32 and 64 bits). Most importantly, you can use the dockerized compiler in this package to compile these modules directly from source. That way you don't need to put your trust the precompiled versions in this package or anyone else's versions of libsecp256k1.
-* Github repo: https://github.com/ArcticTechnology/libsecp256k1-0
+* Github repo: https://github.com/Careworker/libsecp256k1-0
 * PyPi: https://pypi.org/project/libsecp256k1-0/
 
 ## Prerequisites
@@ -19,7 +19,7 @@ pip3 install libsecp256k1-0
 ```
 * Local Install - Alternatively, you can download or git clone the Github repo and install it locally with the following:
 ```
-git clone https://github.com/ArcticTechnology/libsecp256k1-0.git
+git clone https://github.com/Careworker/libsecp256k1-0.git
 cd libsecp256k1-0
 pip3 install -e .
 ```
