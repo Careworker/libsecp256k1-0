@@ -8,7 +8,7 @@ build-backend = "setuptools.build_meta"
 name = "libsecp256k1-0"
 version = "0.3.0"
 authors = [
-    { name = "ArcticTechnology", email = "arctic.technology.mail@gmail.com" },
+    { name = "Careworker", email = "13512073+Careworker@users.noreply.github.com" },
 ]
 description = "Compiled libsecp256k1 for using ECDSA signatures and secret/public key cryptography in your python projects."
 keywords = [
@@ -45,7 +45,7 @@ file = "README.md"
 content-type = "text/markdown"
 
 [project.urls]
-Homepage = "https://github.com/ArcticTechnology/libsecp256k1-0"
+Homepage = "https://github.com/Careworker/libsecp256k1-0"
 
 [project.scripts]
 libsecp-compile = "libsecp256k1_0.main:main"
